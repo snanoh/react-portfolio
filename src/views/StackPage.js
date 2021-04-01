@@ -26,7 +26,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">JavaScript</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8`} target="_blank">
-                                <img src={`../asset/img/js.png`} alt="JavaScript Logo" />
+                                <img src={`http://localhost:3000/asset/img/js.png`} alt="JavaScript Logo" />
                             </a>
                             </td>
                             <td>

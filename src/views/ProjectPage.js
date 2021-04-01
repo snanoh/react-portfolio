@@ -1,4 +1,6 @@
 import React from 'react'
+import { FileEarmarkSlides } from 'react-bootstrap-icons';
+
 
 function ProjectPage() {
     return (
@@ -54,7 +56,7 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal1">
-                                <i class="bi bi-file-earmark-slides"></i>
+                                <FileEarmarkSlides className="ml-4" />
                                 <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -110,7 +112,8 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <i class="bi bi-file-earmark-slides"></i>
+                                <FileEarmarkSlides className="ml-4" />
+                                
                             </span>
                             </td>
                         </tr>
@@ -147,7 +150,7 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <i class="bi bi-file-earmark-slides"></i>
+                                <FileEarmarkSlides className="ml-4" />
                             </span>
                             </td>
                         </tr>
@@ -184,7 +187,7 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <i class="bi bi-file-earmark-slides"></i>
+                                <FileEarmarkSlides className="ml-4" />
                             </span>
                             </td>
                         </tr>
@@ -221,7 +224,7 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <i class="bi bi-file-earmark-slides"></i>
+                                <FileEarmarkSlides className="ml-4" />
                             </span>
                             </td>
                         </tr>
@@ -258,7 +261,7 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <i class="bi bi-file-earmark-slides"></i>
+                                <FileEarmarkSlides className="ml-4" />
                             </span>
                             </td>
                         </tr>

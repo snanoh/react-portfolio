@@ -25,9 +25,6 @@ function NavPage() {
               <a class="nav-link" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#awards">Awards</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#stacks">Stacks</a>
             </li>
             <li class="nav-item">
