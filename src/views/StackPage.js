@@ -1,4 +1,7 @@
 import React from 'react'
+import { Star } from 'react-bootstrap-icons';
+import { StarFill } from 'react-bootstrap-icons';
+import { StarHalf } from 'react-bootstrap-icons';
 
 function StackPage() {
     return (
@@ -26,7 +29,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">JavaScript</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8`} target="_blank">
-                                <img src={`http://localhost:3000/asset/img/js.png`} alt="JavaScript Logo" />
+                                <img src={`img/js.png`} alt="JavaScript Logo" />
                             </a>
                             </td>
                             <td>
@@ -36,11 +39,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
                             </div>
                             </td>
                         </tr>
@@ -48,7 +51,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">Node.js</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/Node.js`} target="_blank">
-                                <img src={`../asset/svg/nodejs.svg`} alt="Node.js Logo" />
+                                <img src={`/svg/nodejs.svg`} alt="Node.js Logo" />
                             </a>
                             </td>
                             <td>
@@ -57,11 +60,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <Star/>
                             </div>
                             </td>
                         </tr>
@@ -69,7 +72,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">React</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%95%A1%ED%8A%B8_(%EC%9B%B9_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)`} target="_blank">
-                                <img src={`../asset/svg/react.svg`} alt="React Logo" />
+                                <img src={`/svg/react.svg`} alt="React Logo" />
                             </a>
                             </td>
                             <td>
@@ -79,11 +82,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
-                                <i class="bi bi-star"></i>
-                                <i class="bi bi-star"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <Star/>
+                                <Star/>
+                                <Star/>
                             </div>
                             </td>
                         </tr>
@@ -91,7 +94,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">Express</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/Express.js`} target="_blank">
-                                <img src={`../asset/svg/express.svg`} alt="Express Logo" />
+                                <img src={`/svg/express.svg`} alt="Express Logo" />
                             </a>
                             </td>
                             <td>
@@ -100,11 +103,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <Star/>
                             </div>
                             </td>
                         </tr>
@@ -112,7 +115,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">Koa</th>
                             <td>
                             <a href={`https://koajs.com/`} target="_blank">
-                                <img src={`../asset/svg/koa.svg`} alt="Koa Logo" />
+                                <img src={`/svg/koa.svg`} alt="Koa Logo" />
                             </a>
                             </td>
                             <td>
@@ -121,11 +124,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <Star/>
                             </div>
                             </td>
                         </tr>
@@ -133,7 +136,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">MongoDB</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EB%AA%BD%EA%B3%A0DB`} target="_blank">
-                                <img src={`../asset/svg/mongodb.svg`} alt="MongoDB Logo" />
+                                <img src={`svg/mongodb.svg`} alt="MongoDB Logo" />
                             </a>
                             </td>
                             <td>
@@ -142,11 +145,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-half"></i>
-                                <i class="bi bi-star"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarHalf />
+                                <Star/>
                             </div>
                             </td>
                         </tr>
@@ -154,7 +157,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">AWS EC2</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EC%95%84%EB%A7%88%EC%A1%B4_%EC%9D%BC%EB%9E%98%EC%8A%A4%ED%8B%B1_%EC%BB%B4%ED%93%A8%ED%8A%B8_%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C`} target="_blank">
-                                <img src={`../asset/img/ec2.png`} alt="AWS EC2 Logo" />
+                                <img src={`/img/ec2.png`} alt="AWS EC2 Logo" />
                             </a>
                             </td>
                             <td>
@@ -163,11 +166,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
-                                <i class="bi bi-star"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <Star/>
+                                <Star/>
                             </div>
                             </td>
                         </tr>
@@ -175,7 +178,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">AWS S3</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EC%95%84%EB%A7%88%EC%A1%B4_S3`} target="_blank">
-                                <img src={`../asset/img/s3.png`} alt="AWS S3 Logo" />
+                                <img src={`/img/s3.png`} alt="AWS S3 Logo" />
                             </a>
                             </td>
                             <td>
@@ -184,11 +187,11 @@ function StackPage() {
                             </td>
                             <td>
                             <div class="star-icon text-center">
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star"></i>
+                                <StarFill/>
+                                <StarFill/>
+                                <StarFill/>
+                                <Star/>
+                                <Star/>
                             </div>
                             </td>
                         </tr>
