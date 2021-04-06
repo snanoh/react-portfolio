@@ -28,13 +28,7 @@ function NavPage() {
               <a class="nav-link" href="#stacks">Stacks</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#document">Document</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#salary">Salary</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>

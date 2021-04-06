@@ -8,7 +8,6 @@ function ProjectPage() {
             <h2 class="section-header fonsiz-xxxl fonwei-en-xxl letsp-sm text-upper color-basic">Project</h2>
             <div class="section-desc fonsiz-sm color-basic-opac letsp-sm ws-xs mt-2 mb-4">
             저는 프로젝트의 시작보다는 마무리에 집중합니다.
-            한번 시작한 프로젝트는 혼자라도 반드시 마무리합니다.
             </div>
             <div class="card shadow">
                 <div class="card-body">
@@ -24,35 +23,31 @@ function ProjectPage() {
                         </thead>
                         <tbody>
                         <tr>
-                            <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                            <th class="table-title" scope="col">현대모터스튜디오 영업정보시스템</th>
                             <td>
-                            <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
+                            <div>[아스템즈] 현대모터스튜디오 영업정보시스템 (매장 통합 관리 시스템)</div>
                             <div>
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드
+                                #매장관리 #사원관리 #상품관리 #매입관리 #예약관리 #매출관리 #재고관리
                             </div>
                             <div>
-                                <span class="badge bg-inprogress">In Progress</span>
-                                <span class="badge bg-grey">React</span>
-                                <span class="badge bg-grey">Redux</span>
-                                <span class="badge bg-grey">JavaScript ES6</span>
+                                <span class="badge bg-done">Done</span>
+                                <span class="badge bg-grey">Spring</span>
+                                <span class="badge bg-grey">SpringSecurity</span>
+                                <span class="badge bg-grey">Jquery</span>
+                                <span class="badge bg-grey">ORACLE</span>
                                 <span class="badge bg-grey">HTML5 and CSS3</span>
                                 <span class="badge bg-grey">Bootstrap 4</span>
-                                <span class="badge bg-grey">Node.js</span>
-                                <span class="badge bg-grey">Koa</span>
-                                <span class="badge bg-grey">MongoDB</span>
-                                <span class="badge bg-grey">AWS EC2</span>
                             </div>
                             </td>
                             <td class="text-center">
-                            <div class="">( ~ M/M)</div>
+                            <div class="">( 6 M/M)</div>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style={{width: '100%'}}>
-                                <span class="progress-desc">개발중</span>
+                                {/* <div class="progress-bar progress-bar-striped progress-bar-animated" style={{width: '100%'}}> */}
+                                <div class="progress-bar progress-bar-striped bg-info" style={{width: "100%"}}>
+                                    <span class="progress-desc">100%</span>
                                 </div>
                             </div>
-                            <div class="progress-desc">프론트엔드 단독 개발</div>
+                            <div class="progress-desc">백엔드,프론트엔드 개발</div>
                             </td>
                             <td class="text-center">
                             <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal1">
@@ -80,63 +75,15 @@ function ProjectPage() {
                             </td>
                         </tr>
                         <tr>
-                            <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                            <th class="table-title" scope="col">카카오아이엑스 전자영수증</th>
                             <td>
-                            <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
+                            <div>[아스템즈]카카오아이엑스 전자영수증 (전자영수증 인터페이스)</div>
                             <div>
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드
-                            </div>
-                            <div>
-                                <span class="badge bg-inprogress">In Progress</span>
-                                <span class="badge bg-grey">React</span>
-                                <span class="badge bg-grey">Redux</span>
-                                <span class="badge bg-grey">JavaScript ES6</span>
-                                <span class="badge bg-grey">HTML5 and CSS3</span>
-                                <span class="badge bg-grey">Bootstrap 4</span>
-                                <span class="badge bg-grey">Node.js</span>
-                                <span class="badge bg-grey">Koa</span>
-                                <span class="badge bg-grey">MongoDB</span>
-                                <span class="badge bg-grey">AWS EC2</span>
-                            </div>
-                            </td>
-                            <td class="text-center">
-                            <div class="">( ~ M/M)</div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" style={{width: "100%"}}>
-                                <span class="progress-desc">개발중</span>
-                                </div>
-                            </div>
-                            <div class="progress-desc">백엔드 단독 개발</div>
-                            </td>
-                            <td class="text-center">
-                            <span class="text-muted">
-                                <FileEarmarkSlides className="ml-4" />
-                                
-                            </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
-                            <td>
-                            <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
-                            <div>
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드
                             </div>
                             <div>
                                 <span class="badge bg-done">Done</span>
-                                <span class="badge bg-grey">React</span>
-                                <span class="badge bg-grey">Redux</span>
-                                <span class="badge bg-grey">JavaScript ES6</span>
-                                <span class="badge bg-grey">HTML5 and CSS3</span>
-                                <span class="badge bg-grey">Bootstrap 4</span>
-                                <span class="badge bg-grey">Node.js</span>
-                                <span class="badge bg-grey">Koa</span>
-                                <span class="badge bg-grey">MongoDB</span>
-                                <span class="badge bg-grey">AWS EC2</span>
+                                <span class="badge bg-grey">Php</span>
+                                <span class="badge bg-grey">ORACLE</span>
                             </div>
                             </td>
                             <td class="text-center">
@@ -146,7 +93,7 @@ function ProjectPage() {
                                 <span class="progress-desc">100%</span>
                                 </div>
                             </div>
-                            <div class="progress-desc">백엔드 개발</div>
+                            <div class="progress-desc">백엔드,프론트엔드 개발</div>
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
@@ -155,35 +102,27 @@ function ProjectPage() {
                             </td>
                         </tr>
                         <tr>
-                            <th class="table-title" scope="col">오픈 소스 프로젝트</th>
+                            <th class="table-title" scope="col">하이트진로 영업정보시스템</th>
                             <td>
-                            <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
+                            <div>[아스템즈]하이트진로 와인 영업정보시스템 (매장 통합 관리 시스템)</div>
                             <div>
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드
+                                #매장관리 #사원관리 #상품관리 #매입관리 #예약관리 #매출관리 #재고관리
                             </div>
                             <div>
                                 <span class="badge bg-done">Done</span>
-                                <span class="badge bg-grey">React</span>
-                                <span class="badge bg-grey">Redux</span>
-                                <span class="badge bg-grey">JavaScript ES6</span>
-                                <span class="badge bg-grey">HTML5 and CSS3</span>
-                                <span class="badge bg-grey">Bootstrap 4</span>
-                                <span class="badge bg-grey">Node.js</span>
-                                <span class="badge bg-grey">Koa</span>
-                                <span class="badge bg-grey">MongoDB</span>
-                                <span class="badge bg-grey">AWS EC2</span>
+                                <span class="badge bg-grey">Php</span>
+                                <span class="badge bg-grey">JavaScript</span>
+                                <span class="badge bg-grey">ORACLE</span>
                             </div>
                             </td>
                             <td class="text-center">
-                            <div class="">(3M/M)</div>
+                            <div class="">(0.5M/M)</div>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped bg-info" style={{width: "100%"}}>
                                 <span class="progress-desc">100%</span>
                                 </div>
                             </div>
-                            <div class="progress-desc">프론트엔드 일부 개발</div>
+                            <div class="progress-desc">백엔드,프론트엔드 개발</div>
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
@@ -192,72 +131,64 @@ function ProjectPage() {
                             </td>
                         </tr>
                         <tr>
-                            <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                            <th class="table-title" scope="col">커피빈 퍼플오더 중계서버</th>
                             <td>
-                            <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
+                            <div>[아스템즈] 커피빈 퍼플오더 중계서버</div>
                             <div>
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드
+                                #퍼플오더 #홀케익예약 #품절관리
+                                #자동취소
                             </div>
                             <div>
-                                <span class="badge bg-refactoring">Refactoring</span>
-                                <span class="badge bg-grey">React</span>
-                                <span class="badge bg-grey">Redux</span>
-                                <span class="badge bg-grey">JavaScript ES6</span>
+                                <span class="badge bg-done">Done</span>
+                                <span class="badge bg-grey">Spring</span>
+                                <span class="badge bg-grey">Redis</span>
+                                <span class="badge bg-grey">Jquery</span>
                                 <span class="badge bg-grey">HTML5 and CSS3</span>
                                 <span class="badge bg-grey">Bootstrap 4</span>
-                                <span class="badge bg-grey">Node.js</span>
-                                <span class="badge bg-grey">Koa</span>
-                                <span class="badge bg-grey">MongoDB</span>
-                                <span class="badge bg-grey">AWS EC2</span>
                             </div>
                             </td>
                             <td class="text-center">
-                            <div class="">(5M/M)</div>
+                            <div class="">( 3 M/M)</div>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped bg-info" style={{width: "100%"}}>
                                 <span class="progress-desc">100%</span>
                                 </div>
                             </div>
-                            <div class="progress-desc">퍼블리싱 개발</div>
+                            <div class="progress-desc">백엔드,프론트엔드 개발</div>
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
                                 <FileEarmarkSlides className="ml-4" />
+                                
                             </span>
                             </td>
                         </tr>
+                        
                         <tr>
-                            <th class="table-title" scope="col">개발한 프로젝트 서비스</th>
+                            <th class="table-title" scope="col">빈스앤베리즈 영업정보시스템</th>
                             <td>
-                            <div>[회사명] + 서비스명 + 서비스의 간략한 개요</div>
+                            <div>[아스템즈]빈스앤베리즈 영업정보시스템(매장 통합관리 시스템)</div>
                             <div>
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드 #검색연관키워드 #검색연관키워드
-                                #검색연관키워드
+                                #매장관리 #사원관리 #상품관리
+                                #매입관리 #재고관리 
                             </div>
                             <div>
-                                <span class="badge bg-renewal">Renewal</span>
-                                <span class="badge bg-grey">React</span>
-                                <span class="badge bg-grey">Redux</span>
-                                <span class="badge bg-grey">JavaScript ES6</span>
+                                <span class="badge bg-done">DONE</span>
+                                <span class="badge bg-grey">SPRING</span>
+                                <span class="badge bg-grey">JQUERY</span>
+                                <span class="badge bg-grey">JavaScript</span>
                                 <span class="badge bg-grey">HTML5 and CSS3</span>
                                 <span class="badge bg-grey">Bootstrap 4</span>
-                                <span class="badge bg-grey">Node.js</span>
-                                <span class="badge bg-grey">Koa</span>
-                                <span class="badge bg-grey">MongoDB</span>
-                                <span class="badge bg-grey">AWS EC2</span>
                             </div>
                             </td>
                             <td class="text-center">
-                            <div class="">(3M/M)</div>
+                            <div class="">(4M/M)</div>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-striped bg-info" style={{width: "100%"}}>
                                 <span class="progress-desc">100%</span>
                                 </div>
                             </div>
-                            <div class="progress-desc">백앤드 일부 개발</div>
+                            <div class="progress-desc">백엔드,프론트엔드 개발</div>
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
@@ -265,6 +196,7 @@ function ProjectPage() {
                             </span>
                             </td>
                         </tr>
+                        
                         </tbody>
                     </table>
                     </div>
