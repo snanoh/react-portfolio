@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap-icons": "^1.4.1",
     "clsx": "^1.1.1",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-bootstrap-icons": "^1.4.0",
@@ -37,4 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://snanoh.github.io/react-portfolio/"}
+  "homepage": "https://snanoh.github.io/react-portfolio/"
+}
