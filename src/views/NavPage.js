@@ -1,18 +1,22 @@
 import React from 'react';
 
-
 function NavPage() {
+
+  const themeChange = (status) => {
+    //$('link[media]').attr('media', status ? 'screen' : 'not screen');
+  }
+
 
   return (
     <div>
         <header>
       <div class="container">
-        <h1>개발자 <strong>류준열</strong> 입니다</h1>
+        <h1>개발자 <strong>노지선</strong> 입니다</h1>
       </div>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid text-uppercase">
-        <a class="navbar-brand" href="#">RYU JUN YEOL</a>
+        <a class="navbar-brand" href="#">NOH JI SUN</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,17 +38,17 @@ function NavPage() {
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <form class="d-flex">
+          {/* <form class="d-flex">
             <div class="btn-box">
               <a href="https://restpack.io/html2pdf/save-as-pdf" class="btn btn-3" target="_blank" >SAVE PDF</a> 
             </div>
-            <button type="button" data-use-dark-mode="true" class="btn btn-dark btn-toggle me-2">
+            <button type="button" data-use-dark-mode="true" class="btn btn-dark btn-toggle me-2" onClick={themeChange(true)}>
               Dark
             </button>
-            <button type="button" data-use-dark-mode="false" class="btn btn-light btn-toggle border">
+            <button type="button" data-use-dark-mode="false" class="btn btn-light btn-toggle border" onClick={themeChange()}>
               White
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </nav>

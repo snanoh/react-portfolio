@@ -1,5 +1,6 @@
 import React from 'react'
 import { FileEarmarkSlides } from 'react-bootstrap-icons';
+import ModalCarousel from '../components/ModalCarousel';
 
 
 function ProjectPage() {
@@ -50,28 +51,7 @@ function ProjectPage() {
                             <div class="progress-desc">백엔드,프론트엔드 개발</div>
                             </td>
                             <td class="text-center">
-                            <span class="text-muted" data-bs-toggle="modal" data-bs-target="#Modal1">
-                                <FileEarmarkSlides className="ml-4" />
-                                <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="Modal1Label">개발 프로젝트 증빙 자료</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img src={`../asset/svg/your-project.svg`} alt=""/>
-                                        <p class="modal-desc">
-                                        여기에 개발한 프로젝트에 대한 상세한 내용(서비스 개요, 사용 프로그램 언어, 사용 라이브러리, 개발 기여도, 개발 기간, 외부 링크 등을 입력해 주세요. 
-                                        </p>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    </div>
-                                    </div>
-                                </div>
-                                </div>
-                            </span>
+                                <ModalCarousel/>
                             </td>
                         </tr>
                         <tr>

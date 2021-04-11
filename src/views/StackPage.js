@@ -28,7 +28,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">Java</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)`} target="_blank">
-                                <img src={`/img/java_logo.png`} alt="java Logo" />
+                                <img src={`img/java.png`} alt="java Logo" />
                             </a>
                             </td>
                             <td>
@@ -71,7 +71,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">React</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EB%A6%AC%EC%95%A1%ED%8A%B8_(%EC%9B%B9_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)`} target="_blank">
-                                <img src={`/svg/react.svg`} alt="React Logo" />
+                                <img src={`svg/react.svg`} alt="React Logo" />
                             </a>
                             </td>
                             <td>
@@ -92,7 +92,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">Spring</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%94%84%EB%A7%81_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC`} target="_blank">
-                                <img src={`/img/spring_logo.png`} alt="Spring Logo" />
+                                <img src={`img/spring.png`} alt="Spring Logo" />
                             </a>
                             </td>
                             <td>
@@ -113,7 +113,7 @@ function StackPage() {
                             <th scope="col" class="table-title letsp-md">ORACLE</th>
                             <td>
                             <a href={`https://ko.wikipedia.org/wiki/%EC%98%A4%EB%9D%BC%ED%81%B4_%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4`} target="_blank">
-                                <img src={`/img/oracle_logo.png`} alt="Oracle Logo" />
+                                <img src={`img/oracle.png`} alt="Oracle Logo" />
                             </a>
                             </td>
                             <td>
