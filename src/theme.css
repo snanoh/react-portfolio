@@ -6,7 +6,7 @@ body {
 }
 
 /* 헤더 */
-header { background-image: url(./asset/img/hero-light.png); background-repeat: no-repeat; background-position: center; background-size: cover; }
+header { background-image: url(./asset/img/background.PNG); background-repeat: no-repeat; background-position: center; background-size: cover; }
 header .container { padding: 16rem 4rem; }
 header .container h1 {
   letter-spacing: -0.05em;
@@ -152,7 +152,7 @@ td .profile { padding-top: 0.5rem; }
 #salary .no { color: orangered; }
 
 /* Contact */
-.contact-body { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-left: 300px; width: 550px; height: 320px; border-radius: 10px; text-transform: uppercase; background: #ffffff; }
+.contact-body { display: flex; flex-direction: column; align-items: center; justify-content: center;  width: 550px; height: 320px; border-radius: 10px; text-transform: uppercase; background: #ffffff; }
 .contact-body h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: 0.094rem; margin-bottom: 0; }
 .contact-body small { font-size: 0.7rem; font-weight: 800; letter-spacing: 0.219rem; color: #3f416567; }
 .contact-body img { width: 5.625rem; height: 5.625rem; border-radius: 50%; border: 0.188rem solid greenyellow; }
@@ -183,4 +183,4 @@ footer { flex-shrink: 0; }
 .btn:hover { background-position: right center; color: rgb(255, 255, 255); }
 .btn-3 { background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%); }
 
-.backimg { height: 50rem; background-image: url(./asset/img/bg.png); background-repeat: no-repeat; background-position: top; background-size: cover; }
+.backimg { height: 30rem; background-repeat: no-repeat; background-position: top; background-size: cover; }

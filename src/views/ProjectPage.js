@@ -51,7 +51,7 @@ function ProjectPage() {
                             <div class="progress-desc">백엔드,프론트엔드 개발</div>
                             </td>
                             <td class="text-center">
-                                <ModalCarousel/>
+                                <ModalCarousel projectImg={["hyundaiPro1.png","hyundaiPro2.png"]}/>
                             </td>
                         </tr>
                         <tr>
@@ -77,7 +77,6 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <FileEarmarkSlides className="ml-4" />
                             </span>
                             </td>
                         </tr>
@@ -106,7 +105,6 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <FileEarmarkSlides className="ml-4" />
                             </span>
                             </td>
                         </tr>
@@ -138,8 +136,7 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <FileEarmarkSlides className="ml-4" />
-                                
+                                <ModalCarousel projectImg={["coffeebeanPro1.png","coffeebeanPro2.png"]}/>
                             </span>
                             </td>
                         </tr>
@@ -172,7 +169,7 @@ function ProjectPage() {
                             </td>
                             <td class="text-center">
                             <span class="text-muted">
-                                <FileEarmarkSlides className="ml-4" />
+                                <ModalCarousel projectImg={["B&BPro1.png","B&BPro2.png"]}/>
                             </span>
                             </td>
                         </tr>

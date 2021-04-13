@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { FileEarmarkSlides } from 'react-bootstrap-icons';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 
 
-function ModalCarousel() {
+function ModalCarousel(props) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -22,28 +22,25 @@ function ModalCarousel() {
                 backdrop="static"
                 keyboard={false}
             >
-                <Modal.Header closeButton>
+                <Modal.Header >
                 <Modal.Title>Project</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <Carousel>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            src={`img/java.png`}
-                            alt="First slide"
-                            />
-                            <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
+                        {props.projectImg.map((image, index) =>(
+                            <Carousel.Item>
+                                <div key={index}>
+                                    <img className="d-block w-100"
+                                        src={`img/${image}`} />
+                                </div>
+                            </Carousel.Item>
+                        ))}
                     </Carousel>
                 </Modal.Body>
                 <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                <button type="button" data-use-dark-mode="true" class="btn btn-dark btn-toggle me-2" onClick={handleClose}>
                     Close
-                </Button>
+                </button>
                 </Modal.Footer>
             </Modal>
         </div>

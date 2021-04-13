@@ -20,11 +20,11 @@ function FooterPage() {
                 <div class="name-card d-flex justify-content-center align-items-center h-100">
                     <div class="contact-body shadow">
                         <div class="text-center mb-4">
-                            <h1>Ryu Jun Yeol </h1>
-                            <small>JavaScript Fullstack Developer</small>
+                            <h1>NOH JI SUN </h1>
+                            <small>Backend Developer</small>
                         </div>
                         <div class="d-flex">
-                            <img src="/img/face.png" />
+                            <img src="img/face.png" />
                             <div class="ps-3">
                                 <ul class="list-unstyled">
                                     <li>
@@ -37,8 +37,8 @@ function FooterPage() {
                                         <span>
                                         <i class="bi bi-envelope"></i>
                                         Email :
-                                        <a href="mailto:kijepark@kijeslab.com">
-                                            <strong>kijepark@kijeslab.com</strong>
+                                        <a href="mailto:njs1324@gmail.com">
+                                            <strong>njs1324@gmail.com</strong>
                                         </a>
                                         </span>
                                     </li>
@@ -46,20 +46,12 @@ function FooterPage() {
                                         <span>
                                         <i class="bi bi-telephone-inbound"></i>
                                         Phone :
-                                        <a href="tel:010-7688-3321">
-                                            <strong>010-7688-3321</strong>
+                                        <a href="tel:010-2960-1327">
+                                            <strong>010-2960-1327</strong>
                                         </a>
                                         </span>
                                     </li>
-                                    <li>
-                                        <span>
-                                        <i class="bi bi-house-door"></i>
-                                        Website :
-                                        <a href="http://kijepark.com">
-                                            <strong>kijepark.com</strong>
-                                        </a>
-                                        </span>
-                                    </li>
+                                    
                                 </ul>
                                 <div class="contact-desc">
                                     “Talk is cheap. show me the code.”
